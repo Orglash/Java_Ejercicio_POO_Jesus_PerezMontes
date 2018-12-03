@@ -1,5 +1,6 @@
 package com.company;
 
+//Clase Casa: declaracion de atributos, getters y setters. Sin toString por falta de necesidad, para evitar overrides.
 public class Casa {
         String direccion;
         int codigoPostal;
