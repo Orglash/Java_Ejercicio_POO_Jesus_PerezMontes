@@ -26,6 +26,7 @@ public class ListaCasa {
         }
     }
     //Getters y setters, porque son gratis
+
     public Casa[] getLista() {
         return lista;
     }
@@ -41,6 +42,7 @@ public class ListaCasa {
     public void setContador(int contador) {
         this.contador = contador;
     }
+
     //toString() custom, para que a base de bucles, nos segmente la informacion como pide el enunciado.
     public String toString() {
         String infoLista = "Direcciones:";
